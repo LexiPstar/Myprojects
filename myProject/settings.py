@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django_tables2',  # 项目依赖
     'django_filters',  # 项目依赖
     'users',  # 自建应用
+    "fuckapp.apps.FuckappConfig",
 ]
 
 MIDDLEWARE = [
